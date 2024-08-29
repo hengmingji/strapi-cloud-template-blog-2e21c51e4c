@@ -53,6 +53,16 @@
         "shared.rich-text",
         "shared.slider"
       ]
+    },
+    "block_content": {
+      "type": "blocks"
+    },
+    "ckeditor_content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
     }
   }
 }
