@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test01s",
+  "info": {
+    "singularName": "test01",
+    "pluralName": "test01s",
+    "displayName": "Test01"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "block_content": {
+      "type": "blocks"
+    },
+    "quote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.quote"
+    }
+  }
+}

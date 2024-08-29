@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test02s",
+  "info": {
+    "singularName": "test02",
+    "pluralName": "test02s",
+    "displayName": "Test02"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ckeditor_content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbar"
+      },
+      "customField": "plugin::ckeditor5video.CKEditor5Video"
+    },
+    "title": {
+      "type": "text"
+    }
+  }
+}
